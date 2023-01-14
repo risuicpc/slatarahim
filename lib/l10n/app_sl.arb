@@ -1,0 +1,97 @@
+{
+  "slatarahim": "ስላተራሂም",
+  "home": "መንቄ",
+  "family": "አበሮስ",
+  "addFamily": "አበሮስ ድበሉ",
+  "noGod": "ተአላህ ገነ ኢትገዙየን የሆነ ጎሽተ ኤለ",
+  "messengerOfAllah": "ሙሐመድም የአላህ መልእክተኛኒሙ",
+  "islam": "እስልምና",
+  "iman": "ኢማን",
+  "ihsan": "ኢህሳን",
+  "father": "አቦት",
+  "mother": "እንደት",
+  "son": "{gender, select, male{1 ልጂ ወልድ አለይ} female{1 ልጂ ወልድ አሌት} males{{count} ልጂ ዌጃጆ አሉይ} females{{count} ልጂ ዌጃጆ አሎተ} other{}}",
+  "@son": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "daughter": "{gender, select, male{1 ገረድ ወልድ አለይ} female{1 ገረድ ወልድ አሌት} males{{count} ገረድ ዌጃጆ አሉይ} females{{count} ገረድ ዌጃጆ አሎተ} other{}}",
+  "@daughter": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "sonDaughter": "{count, plural, =0{1 ልጂ ዋ 1 ገረድ} =1{{sonCount} ልጂ ዋ 1 ገረድ} =2{1 ልጂ ዋ {daughterCount} ገረድ} other{{sonCount} ልጂ ዋ {daughterCount} ገረድ}}",
+  "@sonDaughter": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      },
+      "sonCount": {
+        "type": "String"
+      },
+      "daughterCount": {
+        "type": "String"
+      }
+    }
+  },
+  "pronouns": "{gender, select, male{ዌጃጆ አሉይ} female{ዌጃጆ አሎተ} other{}}",
+  "@pronouns": {
+    "description": "A gendered message",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      }
+    }
+  },
+  "sonAndDaughter": "{sonDaughter} {pronouns}",
+  "@sonAndDaughter": {
+    "description": "A gendered message",
+    "placeholders": {
+      "pronouns": {
+        "type": "String"
+      },
+      "sonDaughter": {
+        "type": "String"
+      }
+    }
+  },
+  "noChild": "{gender, select, male{ወልድ ኤለይ} female{ውልድ ኤሌተ} other{}}",
+  "@noChild": {
+    "description": "A gendered message",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      }
+    }
+  },
+  "pronoun": "{gender, select, male{ወልድከ} female{ወልድሸ} males{ወልድቸከ} females{ውልድቸሽ} other{}}",
+  "@pronoun": {
+    "description": "A gendered message",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      }
+    }
+  },
+  "quraan": "{\"alHujuratVerses36\": \"አቱም ሰብቻው! እኘ በልጅ ዋ በገረድ ከለቅነሙ፡፡ ልትቻቸሉም ጎሳ ዋ ጊቾ አሼነሙ፡፡ በአላህ ኤት ኢጠቅለማነይ ጥሽት አላህን ፈሪ የሆነን፡፡ አላህ  ግልጠም ቻይ ውስጠም ቻይን፡፡ ሱረቱ አል-ሁጁራት፣ አያ 13\", \"anNisaaVerses36\": \"አላህነም ተገዙ፡፡ ቡሃም አደምግዝ አተሻርኩ፡፡ በአቦትም፣ ቢንደትም ዋ በቁርብ ዘመድም፣ በቡጦም፣ በጩጥም፣ በቁርብ ኦላም፣ በሩቅ ኦላም፣ በደቦም፣ በገዘኜም፣ ቢንጅመሙ ደር በሉይ ባርያዮ፣ ፈያ አሱ፤ አላህ ኩራተኛም ኪዝበኘም የሆነ ሰበ ኢሎድ፡፡ ሱረቱ አን-ኒሳእ፣ አያ 36\"}",
+  "dialog": "{\"islam\": {\"title\": \"አምስቲቸይ የእስልምና መከዛዞ\",\"text\": \"1. በአላህ ሀድነት (በተውሂድ) ኢመኖት ዋ መሐመድ የአላህ ሉክተኛ ሁኖተኒም ኢመኖት። 2. በየም አምስተ ወክተ ሰላት ሲገዶት። 3. ዘካ ወቦት 4. የረመዳን ወር ሱሚኖት። 5. ቡምር ሀደግን ሀጅ አሶት።\"},\"iman\": {\"title\": \"ስድስትቻይ ኢማን\",\"text\": \"1. በአላህ ኢመኖት 2. በመላይከ ኢመኖት 3. አላህ በወረዳይ ኪተብ ኢመኖት 4. አላህ በለከይሙይ ሉክተኛኞ ኢመኖት 5. በቂየማም አየም ኢመኖት. 6. በቀደር ኢመኖት\"},\"ihsan\": {\"title\": \"አል-ኢህሳን በሎት\",\"text\": \"1. በባሪያይ ዋ በጎሽተከ ጉት የለይ ሸክ አልንበሮት። 2. አለሀን የንዥነያነኮ ዋ የንዥናነኮ አሶን ተገዞት። 3. በባሪያይ ዋ በገናን ኡመት ጉት የለይ ሸክ አልንበሮት።\"}}",
+  "name": "{\"debalo\": \"ደበሎ\",\"yesaliyaEndet\": \"የሰልያ እንደት\",\"yemohammedEndet\": \"የመሀመድ እንደት\",\"yeredyEndet\": \"የረዲ እንደት\",\"yorkichoEndet\": \"የወርቅቾ እንደት\",\"medinaShurala\": \"መዲና ሹረላ\",\"shewbo\": \"ሸውቦ\",\"yeabdiEndet\": \"የአብዲ እንደት\",\"ayriyaSiraj\": \"አይሪያ ሲራጅ\",\"jemilaRedi\": \"ጀማል ረዲ\",\"awelShukur\": \"አወል ሹኩር\",\"mehbuba\": \"መህቡባ\",\"nefisaSheman\": \"ነፊሳ ሸህአማን\",\"alewiya\": \"ኢክራም\",\"yenejaAbet\": \"የነጃ አቦት\",\"zeyneba\": \"ዘይነባ\",\"nudo\": \"ኑዶ\",\"behreSurur\": \"በህሬ ሱሩር\",\"zulfaNuri\": \"ዙልፋ ኑሪ\",\"shemsiyaTemam\": \"ሸምሲያ ተማም\",\"megfiraNesir\": \"መግፊራ ነሲር\",\"ziyeda\": \"ዚየዳ\",\"jemilaAbdela\": \"ጀሚላ አብደላ\",\"abrarSheali\": \"አብራር ሸህአሊ\",\"shemsiyaLalo\": \"ሸምሲያ ላሎ\",\"mohammed\": \"መሀመድ\",\"kiyarSiraj\": \"ኪያር ሲራጅ\",\"shewmolo\": \"ሸውሞሎ\",\"ademAwol\": \"አደም አወል\",\"abduremanAsrar\": \"አብዱረህማን አስራር\",\"behreRedi\": \"በህሬ ረዲ\",\"siyd\": \"ሰይድ\",\"saliya\": \"ሰሊያ\",\"abdo\": \"አብዶ\",\"sheHessan\": \"ሸህሃሳን\",\"redi\": \"ረዲ\",\"sheKedir\": \"ሸህከዲር\",\"usman\": \"ኡስማን\",\"werqicho\": \"ወርቂቾ\",\"kamil\": \"ከሚል\",\"zeyne\": \"ዘይኔ\",\"zehra\": \"ዘህራ\",\"shifo\": \"ሺፎ\",\"zeyda\": \"ዘይዳ\",\"shukra\": \"ሹክራ\",\"kedija\": \"ከዲጃ\",\"nuriya\": \"ኑሪያ\",\"keyria\": \"ከይሪያ\",\"denur\": \"ደኑር\",\"sheSirej\": \"ሸህስራጅ\",\"jemal\": \"ጀማል\",\"abdulkerim\": \"አብዱልከሪም\",\"ali\": \"አሊ\",\"fetiya\": \"ፈቲያ\",\"ruqiya\": \"ሩቂያ\",\"zemzo\": \"ዘምዞ\",\"merdiya\": \"መርዲያ\",\"abdulhafiz\": \"አብዱልሃፊዝ\",\"abdulnesir\": \"አብዱልነሲር\",\"merema\": \"መሬማ\",\"neja\": \"ነጃ\",\"sefiya\": \"ሰፍያ\",\"seifu\": \"ሰይፉ\",\"jelaludin\": \"ጀላሉዲን\",\"ashreqa\": \"አሽረቃ\",\"kedir\": \"ከዲር\",\"ayshe\": \"አይሸ\",\"muaz\": \"ሙአዝ\",\"asiya\": \"አስያ\",\"fakiya\": \"ፈኪያ\",\"kesim\": \"ቀሲም\",\"mekiya\": \"መኪያ\",\"isaq\": \"ኢሳቅ\",\"shekir\": \"ሸኪር\",\"abubeker\": \"አቡበከር\",\"hesinat\": \"ሀሲናት\",\"selehadin\": \"ሰለሃዲን\",\"feyza\": \"ፈይዛ\",\"ezedin\": \"ኢዘዲን\",\"nesre\": \"ነስሬ\",\"fejru\": \"ፈጅሩ\",\"sejida\": \"ሰጂዳ\",\"temima\": \"ተሚማ\",\"rebiya\": \"ረቢያ\",\"sheyte\": \"ሸይቴ\",\"siham\": \"ሲሃም\",\"ajiba\": \"አጂባ\",\"shemse\": \"ሸምሴ\",\"alima\": \"አሊማ\",\"mustefa\": \"ሙስጠፋ\",\"selman\": \"ሰልማን\",\"sebehadin\": \"ሰበሃዲን\",\"semira\": \"ሰሚራ\",\"fedil\": \"ፋዲል\",\"hikma\": \"ሂክማ\",\"sewda\": \"ሰውዳ\",\"khelid\": \"ከሊድ\",\"usen\": \"ኡሰን\",\"sheMohammedNur\": \"ሸህመሀመድኑር\",\"fadila\": \"ፈዲላ\",\"behriya\": \"በህሪያ\",\"shemima\": \"ሸሚማ\",\"ridwen\": \"ሪድወን\",\"kezina\": \"ከዚና\",\"zebiba\": \"ዘቢባ\",\"nesriya\": \"ነስሪያ\",\"sebla\": \"ሰብላ\",\"semiya\": \"ሰሚያ\",\"seyfu\": \"ሰይፉ\",\"sufiya\": \"ሱፊያ\",\"shemsiya\": \"ሸምሲያ\",\"abdilsemed\": \"አብዱሰመድ\",\"wesila\": \"ወሲላ\",\"fuad\": \"ፉወድ\",\"reyan\": \"ረያን\",\"meymuna\": \"መይሙና\",\"keshfu\": \"ከሽፉ\",\"jezira\": \"ጀዚራ\"}",
+  "address": "{\"aretbar\": \"አረትባር\",\"sirt\": \"ሲርጥ\",\"ansewa\": \"አንሰዋ\",\"alsis\": \"አልሲስ\",\"senkura\": \"ሰንኩራ\",\"danecho\": \"ደኔቾ\",\"wenji\": \"ወንጂ\",\"adama\": \"አደማ\",\"alicho\": \"አሊቾ\",\"yebu\": \"የቡ\",\"metahara\": \"መተሃራ\",\"worabe\": \"ወራቤ\",\"alsisNigdibr\": \"አልሲስኒግድብር\",\"addisAbaba\": \"አዲስ አባባ\",\"alkeso\": \"አልከሶ\",\"kala\": \"ቀላ\",\"nigdibr\": \"ኒግዲብር\",\"aybat\": \"አይባት\",\"anshebeso\": \"አንሸቤሶ\",\"mito\": \"ሚቶ\"}",
+  "comingSoon": "በቁርብ ኢንሻአላህ"
+}
