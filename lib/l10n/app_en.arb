@@ -1,0 +1,97 @@
+{
+  "slatarahim": "Slatarahim",
+  "home": "Home",
+  "family": "Family",
+  "addFamily": "Add Family",
+  "noGod": "There is no god but allah, and",
+  "messengerOfAllah": "Muhammad is the messenger of Allah",
+  "islam": "ISLAM",
+  "iman": "IMAN",
+  "ihsan": "IHSAN",
+  "father": "Father",
+  "mother": "Mother",
+  "son": "{gender, select, male{He has 1 son} female{She has 1 son} males{He has {count} sons} females{She has {count} sons} other{}}",
+  "@son": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "daughter": "{gender, select, male{He has 1 daughter} female{She has 1 daughter} males{He has {count} daughters} females{She has {count} daughters} other{}}",
+  "@daughter": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "sonDaughter": "{count, plural, =0{1 son and 1 daughter} =1{{sonCount} sons and 1 daughter} =2{1 son and {daughterCount} daughters} other{{sonCount} sons and {daughterCount} daughters}}",
+  "@sonDaughter": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      },
+      "sonCount": {
+        "type": "String"
+      },
+      "daughterCount": {
+        "type": "String"
+      }
+    }
+  },
+  "pronouns": "{gender, select, male{He has} female{She has} other{}}",
+  "@pronouns": {
+    "description": "A gendered message",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      }
+    }
+  },
+  "sonAndDaughter": "{pronouns} {sonDaughter}",
+  "@sonAndDaughter": {
+    "description": "A gendered message",
+    "placeholders": {
+      "pronouns": {
+        "type": "String"
+      },
+      "sonDaughter": {
+        "type": "String"
+      }
+    }
+  },
+  "noChild": "{gender, select, male{He has no child} female{She has no child} other{}}",
+  "@noChild": {
+    "description": "A gendered message",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      }
+    }
+  },
+  "pronoun": "{gender, select, male{His Child} female{Her Child} males{His Children} females{Her Children} other{}}",
+  "@pronoun": {
+    "description": "A gendered message",
+    "placeholders": {
+      "gender": {
+        "type": "String"
+      }
+    }
+  },
+  "quraan": "{\"alHujuratVerses36\": \"O mankind! We created you from a single pair of a male and a female, and made you into nations and tribes that you might get to know one another. Surely the noblest of you in the sight of Allah is he who is the most righteous. Allah is All-Knowledgeable, All-Aware. Surah 49. Al-Hujurat, Ayah 13\", \"anNisaaVerses36\": \"Serve Allah and do not commit shirk (associate any partner) with Him, and be good to your parents, kinfolks, orphans, the helpless, near and far neighbors who keep company with you, the travellers in need, and the slaves you own. Allah does not love those who are arrogant and boastful. Surah 4. An-Nisaa, Ayah 36\"}",
+  "dialog": "{\"islam\": {\"title\": \"The Five Pillars of Islam\",\"text\": \"1. The profession of faith or shahada. 2. The duty to perform five daily prayers or salat. 3. The obligation to provide alms or zakat. 4. Fasting during the month of Ramadan. 5. Pilgrimage to Mecca (hajj)\"},\"iman\": {\"title\": \"The six pillars of Imaan\",\"text\": \"1. Belief in Allah. 2. Belief in His Angels. 3. Belief in His books. 4. Belief in His messengers. 5. Belief in the final day (Hereafter). 6. Belief in the Qadar (Divine Decree).\"},\"ihsan\": {\"title\": \"Al-Ihsan means\",\"text\": \"1. Perfection of what lies between the servant and his Lord. 2. Perfection of what is between the servant and the rest of the people. 3. Doing well and perfecting what you do.\"}}",
+  "name": "{\"debalo\": \"Debalo\",\"yesaliyaEndet\": \"Mother of selia\",\"yemohammedEndet\": \"Mother of mohammed\",\"yeredyEndet\": \"Mother of redi\",\"yorkichoEndet\": \"Mother of werqicho\",\"medinaShurala\": \"Medina Shurala\",\"shewbo\": \"Shewbo\",\"yeabdiEndet\": \"Mother of abdi\",\"ayriyaSiraj\": \"Ayriya Siraj\",\"jemilaRedi\": \"Jemila Redi\",\"awelShukur\": \"Awel Shukur\",\"mehbuba\": \"Mehbuba\",\"nefisaSheman\": \"Nefisa S/Aman\",\"alewiya\": \"Ekram\",\"yenejaAbet\": \"Father of neja\",\"zeyneba\": \"Zeyneba\",\"nudo\": \"Nudo\",\"behreSurur\": \"Behre Surur\",\"zulfaNuri\": \"Zulfa Nuri\",\"shemsiyaTemam\": \"Shemsiya Temam\",\"megfiraNesir\": \"Megfira Nesir\",\"ziyeda\": \"Ziyeda\",\"jemilaAbdela\": \"Jemila Abdela\",\"abrarSheali\": \"Abrar S/Ali\",\"shemsiyaLalo\": \"Shemsiya Lalo\",\"mohammed\": \"Mohammed\",\"kiyarSiraj\": \"Kiyar Siraj\",\"shewmolo\": \"Shewmolo\",\"ademAwol\": \"Adem Awol\",\"abduremanAsrar\": \"Abdureman Asrar\",\"behreRedi\": \"Behre Redi\",\"seid\": \"Seid\",\"saliya\": \"Saliya\",\"abdo\": \"Abdo\",\"sheHessan\": \"S/Hessan\",\"redi\": \"Redi\",\"sheKedir\": \"S/Kedir\",\"usman\": \"Usman\",\"werqicho\": \"Werqicho\",\"kamil\": \"Kamil\",\"zeyne\": \"Zeyne\",\"zehra\": \"Zehra\",\"shifo\": \"Shifo\",\"zeyda\": \"Zeyda\",\"shukra\": \"Shukra\",\"kedija\": \"Kedija\",\"nuriya\": \"Nuriya\",\"keyria\": \"Keyria\",\"denur\": \"Denur\",\"sheSirej\": \"S/Sirej\",\"jemal\": \"Jemal\",\"abdulkerim\": \"Abdulkerim\",\"ali\": \"Ali\",\"fetiya\": \"Fetiya\",\"ruqiya\": \"Ruqiya\",\"zemzo\": \"Zemzo\",\"merdiya\": \"Merdiya\",\"abdulhafiz\": \"Abdulhafiz\",\"abdulnesir\": \"Abdulnesir\",\"merema\": \"Merema\",\"neja\": \"Neja\",\"sefiya\": \"Sefiya\",\"seifu\": \"Seifu\",\"jelaludin\": \"Jelaludin\",\"ashreqa\": \"Ashreqa\",\"kedir\": \"Kedir\",\"ayshe\": \"Ayshe\",\"muaz\": \"Muaz\",\"asiya\": \"Asiya\",\"fakiya\": \"Fakiya\",\"kesim\": \"Kesim\",\"mekiya\": \"Mekiya\",\"isaq\": \"Isaq\",\"shekir\": \"Shekir\",\"abubeker\": \"Abubeker\",\"hesinat\": \"Hesinat\",\"selehadin\": \"Selehadin\",\"feyza\": \"Feyza\",\"ezedin\": \"Ezedin\",\"nesre\": \"Nesre\",\"fejru\": \"Fejru\",\"sejida\": \"Sejida\",\"temima\": \"Temima\",\"rebiya\": \"Rebiya\",\"sheyte\": \"Sheyte\",\"siham\": \"Siham\",\"ajiba\": \"Ajiba\",\"shemse\": \"Shemse\",\"alima\": \"Alima\",\"mustefa\": \"Mustefa\",\"selman\": \"Selman\",\"sebehadin\": \"Sebehadin\",\"semira\": \"Semira\",\"fedil\": \"Fedil\",\"hikma\": \"Hikma\",\"sewda\": \"Sewda\",\"khelid\": \"Khelid\",\"usen\": \"Usen\",\"sheMohammedNur\": \"S/Mohammednur\",\"fadila\": \"Fadila\",\"behriya\": \"Behriya\",\"shemima\": \"Shemima\",\"ridwen\": \"Ridwen\",\"kezina\": \"Kezina\",\"zebiba\": \"Zebiba\",\"nesriya\": \"Nesriya\",\"sebla\": \"Sebla\",\"semiya\": \"Semiya\",\"seyfu\": \"Seyfu\",\"sufiya\": \"Sufiya\",\"shemsiya\": \"Shemsiya\",\"abdilsemed\": \"Abdilsemed\",\"wesila\": \"Wesila\",\"fuad\": \"Fuad\",\"reyan\": \"Reyan\",\"meymuna\": \"Meymuna\",\"keshfu\": \"Keshfu\",\"jezira\": \"Jezira\"}",
+  "address": "{\"aretbar\": \"Aretbar\",\"sirt\": \"Sirt\",\"ansewa\": \"Ansewa\",\"alsis\": \"Alsis\",\"senkura\": \"Senkura\",\"danecho\": \"Danecho\",\"wenji\": \"Wenji\",\"adama\": \"Adama\",\"alicho\": \"Alicho\",\"yebu\": \"Yebu\",\"metahara\": \"Metahara\",\"worabe\": \"Worabe\",\"alsisNigdibr\": \"Alsis Nigdibr\",\"addisAbaba\": \"Addis Ababa\",\"alkeso\": \"Alkeso\",\"kala\": \"Kala\",\"nigdibr\": \"Nigdibr\",\"aybat\": \"Aybat\",\"anshebeso\": \"Anshebeso\",\"mito\": \"Mito\"}",
+  "comingSoon": "Coming soon inshaAllah"
+}
