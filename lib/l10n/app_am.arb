@@ -91,25 +91,25 @@
   },
   "quraan": "{\"alHujuratVerses36\": \"እናንተ ሰዎች ሆይ! እኛ ከወንድና ከሴት ፈጠርናችሁ፡፡ እንድትተዋወቁም ጎሳዎችና ነገዶች አደረግናችሁ፡፡ አላህ ዘንድ በላጫችሁ በጣም አላህን ፈሪያችሁ ነው፡፡ አላህ ግልጽን ዐዋቂ ውስጥንም ዐዋቂ ነው፡፡ ሱረቱ አል-ሁጁራት፣ አያህ 13\", \"anNisaaVerses36\": \"አላህንም ተገዙ፡፡ በእርሱም ምንንም አታጋሩ፡፡ በወላጆችና በቅርብ ዝምድና ባለቤትም፣ በየቲሞችም፣ በምስኪኖችም፣ በቅርብ ጎረቤትም፣ በሩቅ ጎረቤትም፣ በጎን ባልደረባም፣ በመንገደኛም፣ እጆቻችሁም ንብረት ባደረጓቸው (ባሮች)፣ መልካምን (ሥሩ)፤ አላህ ኩራተኛ ጉረኛ የኾነን ሰው አይወድም፡፡ ሱረቱ አን-ኒሳእ፣ አያህ 36\"}",
   "dialog": "{\"islam\": {\"title\": \"አምስቱ የእስልምና መሰረቶች\",\"text\": \"1. በአላህ አንድነት (ተውሂድ) ማመን እና መሐመድ የአላህ መልእክተኛ መሆነቸውን ማመን። 2. በቀን አምስት ጊዜ ሰላት መስገድ። 3. ምጽዋት ወይም ዘካ መስጠት። 4. የረመዷን ወር መጾም። 5. ወደ መካ (ሀጅ) ጉዞ መድረግ።\"},\"iman\": {\"title\": \"ስድስቱ የኢማን ምሰሶዎች\",\"text\": \"1. በአላህ ማመን። 2. በመላእክቱ ማመን። 3. አላህ በወረዳው መጽሐፉ ማመን። 4. አላህ በለካቸው መልክተኞቹ ማመን። 5. በመጨረሻው ቀን ማመን. 6. በቀደር ማመን።\"},\"ihsan\": {\"title\": \"አል-ኢህሳን ማለት\",\"text\": \"1. በባሪያውና በጌታው መካከል ያለው ፍፁምነት። 2. አላህን ልክ እንደምናየው እና እንደምየያን አድርገን መገዛት። 3. በአገልጋዩ እና በተቀረው ሰዎች መካከል ያለው ፍጹምነት።\"}}",
-  "name": "{\"debalo\": \"ደበሎ\",\"yesaliyaEndet\": \"የሰልያ እነት\",\"yemohammedEndet\": \"የመሀመድ እነት\",\"yeredyEndet\": \"የረዲ እነት\",\"yorkichoEndet\": \"የወርቅቾ እነት\",\"medinaShurala\": \"መዲና ሹረላ\",\"shewbo\": \"ሸውቦ\",\"yeabdiEndet\": \"የአብዲ እነት\",\"ayriyaSiraj\": \"አይሪያ ሲራጅ\",\"jemilaRedi\": \"ጀማል ረዲ\",\"awelShukur\": \"አወል ሹኩር\",\"mehbuba\": \"መህቡባ\",\"nefisaSheman\": \"ነፊሳ ሸህአማን\",\"alewiya\": \"ኢክራም\",\"yenejaAbet\": \"የነጃ አባት\",\"zeyneba\": \"ዘይነባ\",\"nudo\": \"ኑዶ\",\"behreSurur\": \"በህሬ ሱሩር\",\"zulfaNuri\": \"ዙልፋ ኑሪ\",\"shemsiyaTemam\": \"ሸምሲያ ተማም\",\"megfiraNesir\": \"መግፊራ ነሲር\",\"ziyeda\": \"ዚየዳ\",\"jemilaAbdela\": \"ጀሚላ አብደላ\",\"abrarSheali\": \"አብራር ሸህአሊ\",\"shemsiyaLalo\": \"ሸምሲያ ላሎ\",\"mohammed\": \"መሀመድ\",\"kiyarSiraj\": \"ኪያር ሲራጅ\",\"shewmolo\": \"ሸውሞሎ\",\"ademAwol\": \"አደም አወል\",\"abduremanAsrar\": \"አብዱረህማን አስራር\",\"behreRedi\": \"በህሬ ረዲ\",\"siyd\": \"ሰይድ\",\"saliya\": \"ሰሊያ\",\"abdo\": \"አብዶ\",\"sheHessan\": \"ሸህሃሳን\",\"redi\": \"ረዲ\",\"sheKedir\": \"ሸህከዲር\",\"usman\": \"ኡስማን\",\"werqicho\": \"ወርቂቾ\",\"kamil\": \"ከሚል\",\"zeyne\": \"ዘይኔ\",\"zehra\": \"ዘህራ\",\"shifo\": \"ሺፎ\",\"zeyda\": \"ዘይዳ\",\"shukra\": \"ሹክራ\",\"kedija\": \"ከዲጃ\",\"nuriya\": \"ኑሪያ\",\"keyria\": \"ከይሪያ\",\"denur\": \"ደኑር\",\"sheSirej\": \"ሸህስራጅ\",\"jemal\": \"ጀማል\",\"abdulkerim\": \"አብዱልከሪም\",\"ali\": \"አሊ\",\"fetiya\": \"ፈቲያ\",\"ruqiya\": \"ሩቂያ\",\"zemzo\": \"ዘምዞ\",\"merdiya\": \"መርዲያ\",\"abdulhafiz\": \"አብዱልሃፊዝ\",\"abdulnesir\": \"አብዱልነሲር\",\"merema\": \"መሬማ\",\"neja\": \"ነጃ\",\"sefiya\": \"ሰፍያ\",\"seifu\": \"ሰይፉ\",\"jelaludin\": \"ጀላሉዲን\",\"ashreqa\": \"አሽረቃ\",\"kedir\": \"ከዲር\",\"ayshe\": \"አይሸ\",\"muaz\": \"ሙአዝ\",\"asiya\": \"አስያ\",\"fakiya\": \"ፈኪያ\",\"kesim\": \"ቀሲም\",\"mekiya\": \"መኪያ\",\"isaq\": \"ኢሳቅ\",\"shekir\": \"ሸኪር\",\"abubeker\": \"አቡበከር\",\"hesinat\": \"ሀሲናት\",\"selehadin\": \"ሰለሃዲን\",\"feyza\": \"ፈይዛ\",\"ezedin\": \"ኢዘዲን\",\"nesre\": \"ነስሬ\",\"fejru\": \"ፈጅሩ\",\"sejida\": \"ሰጂዳ\",\"temima\": \"ተሚማ\",\"rebiya\": \"ረቢያ\",\"sheyte\": \"ሸይቴ\",\"siham\": \"ሲሃም\",\"ajiba\": \"አጂባ\",\"shemse\": \"ሸምሴ\",\"alima\": \"አሊማ\",\"mustefa\": \"ሙስጠፋ\",\"selman\": \"ሰልማን\",\"sebehadin\": \"ሰበሃዲን\",\"semira\": \"ሰሚራ\",\"fedil\": \"ፋዲል\",\"hikma\": \"ሂክማ\",\"sewda\": \"ሰውዳ\",\"khelid\": \"ኸሊድ\",\"usen\": \"ኡሰን\",\"sheMohammedNur\": \"ሸህመሀመድኑር\",\"fadila\": \"ፈዲላ\",\"behriya\": \"በህሪያ\",\"shemima\": \"ሸሚማ\",\"ridwen\": \"ሪድወን\",\"kezina\": \"ከዚና\",\"zebiba\": \"ዘቢባ\",\"nesriya\": \"ነስሪያ\",\"sebla\": \"ሰብላ\",\"semiya\": \"ሰሚያ\",\"seyfu\": \"ሰይፉ\",\"sufiya\": \"ሱፊያ\",\"shemsiya\": \"ሸምሲያ\",\"abdilsemed\": \"አብዱሰመድ\",\"wesila\": \"ወሲላ\",\"fuad\": \"ፉወድ\",\"reyan\": \"ረያን\",\"meymuna\": \"መይሙና\",\"keshfu\": \"ከሽፉ\",\"jezira\": \"ጀዚራ\"}",
-  "address": "{\"aretbar\": \"አረትባር\",\"sirt\": \"ሲርጥ\",\"ansewa\": \"አንሰዋ\",\"alsis\": \"አልሲስ\",\"senkura\": \"ሰንኩራ\",\"danecho\": \"ደኔቾ\",\"wenji\": \"ወንጂ\",\"adama\": \"አደማ\",\"alicho\": \"አሊቾ\",\"yebu\": \"የቡ\",\"metahara\": \"መተሃራ\",\"worabe\": \"ወራቤ\",\"alsisNigdibr\": \"አልሲስኒግድብር\",\"addisAbaba\": \"አዲስ አባባ\",\"alkeso\": \"አልከሶ\",\"kala\": \"ቀላ\",\"nigdibr\": \"ኒግዲብር\",\"aybat\": \"አይባት\",\"anshebeso\": \"አንሸቤሶ\",\"mito\": \"ሚቶ\"}",
+  "name": "{\"debalo\": \"ደበሎ\",\"yesaliyaEndet\": \"\",\"yemohammedEndet\": \"\",\"yeredyEndet\": \"\",\"yorkichoEndet\": \"\",\"medinaMshira\": \"መዲና ምሺራ\",\"shewbo\": \"ሸውቦ\",\"yeabdiEndet\": \"\",\"ayriyaSiraj\": \"አይሪያ ሲራጅ\",\"jemilaRedi\": \"ጀማል ረዲ\",\"awelShukur\": \"አወል ሹኩር\",\"mehbuba\": \"መህቡባ\",\"nefisaSheman\": \"ነፊሳ ሸህአማን\",\"alewiya\": \"ኢክራም\",\"yesin\": \"የሲን\",\"zeyneba\": \"ዘይነባ\",\"nudo\": \"ኑዶ\",\"behreSurur\": \"በህሬ ሱሩር\",\"zulfaNuri\": \"ዙልፋ ኑሪ\",\"shemsiyaTemam\": \"ሸምሲያ ተማም\",\"megfiraNesir\": \"መግፊራ ነሲር\",\"ziyeda\": \"ዚየዳ\",\"jemilaAbdela\": \"ጀሚላ አብደላ\",\"abrarSheali\": \"አብራር ሸህአሊ\",\"shemsiyaLalo\": \"ሸምሲያ ላሎ\",\"mohammed\": \"መሀመድ\",\"kiyarSiraj\": \"ኪያር ሲራጅ\",\"shewmolo\": \"ሸውሞሎ\",\"ademAwol\": \"አደም አወል\",\"abduremanAsrar\": \"አብዱረህማን አስራር\",\"behreRedi\": \"በህሬ ረዲ\",\"siyd\": \"ሰይድ\",\"saliya\": \"ሰሊያ\",\"abdo\": \"አብዶ\",\"sheHessan\": \"ሸህሃሳን\",\"redi\": \"ረዲ\",\"sheKedir\": \"ሸህከዲር\",\"usman\": \"ኡስማን\",\"werqicho\": \"ወርቂቾ\",\"kamil\": \"ከሚል\",\"zeyne\": \"ዘይኔ\",\"zehra\": \"ዘህራ\",\"shifo\": \"ሺፎ\",\"zeyda\": \"ዘይዳ\",\"shukra\": \"ሹክራ\",\"kedija\": \"ከዲጃ\",\"nuriya\": \"ኑሪያ\",\"keyria\": \"ከይሪያ\",\"denur\": \"ደኑር\",\"sheSirej\": \"ሸህስራጅ\",\"jemal\": \"ጀማል\",\"abdulkerim\": \"አብዱልከሪም\",\"ali\": \"አሊ\",\"fetiya\": \"ፈቲያ\",\"ruqiya\": \"ሩቂያ\",\"zemzo\": \"ዘምዞ\",\"merdiya\": \"መርዲያ\",\"abdulhafiz\": \"አብዱልሃፊዝ\",\"abdulnesir\": \"አብዱልነሲር\",\"merema\": \"መሬማ\",\"neja\": \"ነጃ\",\"sefiya\": \"ሰፍያ\",\"seifu\": \"ሰይፉ\",\"jelaludin\": \"ጀላሉዲን\",\"ashreqa\": \"አሽረቃ\",\"kedir\": \"ከዲር\",\"ayshe\": \"አይሸ\",\"muaz\": \"ሙአዝ\",\"asiya\": \"አስያ\",\"fakiya\": \"ፈኪያ\",\"kesim\": \"ቀሲም\",\"mekiya\": \"መኪያ\",\"ishaq\": \"ኢስሃቅ\",\"shekir\": \"ሸኪር\",\"abubeker\": \"አቡበከር\",\"hesinat\": \"ሀሲናት\",\"selehadin\": \"ሰለሃዲን\",\"feyza\": \"ፈይዛ\",\"ezedin\": \"ኢዘዲን\",\"nesre\": \"ነስሬ\",\"fejru\": \"ፈጅሩ\",\"sejida\": \"ሰጂዳ\",\"temima\": \"ተሚማ\",\"rebiya\": \"ረቢያ\",\"sheyte\": \"ሸይቴ\",\"siham\": \"ሲሃም\",\"ajiba\": \"አጂባ\",\"shemse\": \"ሸምሴ\",\"alima\": \"አሊማ\",\"mustefa\": \"ሙስጠፋ\",\"selman\": \"ሰልማን\",\"sebehadin\": \"ሰበሃዲን\",\"semira\": \"ሰሚራ\",\"fedil\": \"ፋዲል\",\"hikma\": \"ሂክማ\",\"sewda\": \"ሰውዳ\",\"khelid\": \"ኸሊድ\",\"usen\": \"ኡሰን\",\"sheMohammedNur\": \"ሸህመሀመድኑር\",\"fadila\": \"ፈዲላ\",\"behriya\": \"በህሪያ\",\"shemima\": \"ሸሚማ\",\"ridwen\": \"ሪድወን\",\"kezina\": \"ከዚና\",\"zebiba\": \"ዘቢባ\",\"nesriya\": \"ነስሪያ\",\"sebla\": \"ሰብላ\",\"semiya\": \"ሰሚያ\",\"seyfu\": \"ሰይፉ\",\"sufiya\": \"ሱፊያ\",\"shemsiya\": \"ሸምሲያ\",\"abdilsemed\": \"አብዱሰመድ\",\"wesila\": \"ወሲላ\",\"fuad\": \"ፉወድ\",\"reyan\": \"ረያን\",\"meymuna\": \"መይሙና\",\"keshfu\": \"ከሽፉ\",\"jezira\": \"ጀዚራ\",\"imran\": \"ኢምራን\",\"heyatuDeri\": \"ሀያቱ ደሪ\",\"tesnim\": \"ተስኒም\",\"yesulalaEndet\":\"\",\"sulela\":\"ሱለላ\"}",
+  "address": "{\"aretbar\": \"አረትባር\",\"sirt\": \"ሲርጥ\",\"ansewa\": \"አንሰዋ\",\"alsis\": \"አልሲስ\",\"senkura\": \"ሰንኩራ\",\"danecho\": \"ደኔቾ\",\"wenji\": \"ወንጂ\",\"adama\": \"አደማ\",\"alicho\": \"አሊቾ\",\"yebu\": \"የቡ\",\"metahara\": \"መተሃራ\",\"worabe\": \"ወራቤ\",\"alsisNigdibr\": \"አልሲስኒግድብር\",\"addisAbaba\": \"አዲስ አባባ\",\"alkeso\": \"አልከሶ\",\"kala\": \"ቀላ\",\"nigdibr\": \"ኒግዲብር\",\"aybat\": \"አይባት\",\"anshebeso\": \"አንሸቤሶ\",\"mito\": \"ሚቶ\",\"ashkokele\": \"አሽኮከለ\"}",
   "comingSoon": "በቅርቡ ኢንሻአላህ",
   "name1": {
     "debalo": "ደበሎ",
-    "yesaliyaEndet": "የሰልያ እነት",
-    "yemohammedEndet": "የመሀመድ እነት",
-    "yeredyEndet": "የረዲ እነት",
-    "yorkichoEndet": "የወርቅቾ እነት",
-    "medinaShurala": "መዲና ሹረላ",
+    "yesaliyaEndet": "",
+    "yemohammedEndet": "",
+    "yeredyEndet": "",
+    "yorkichoEndet": "",
+    "medinaShurala": "መዲና ምሺራ",
     "shewbo": "ሸውቦ",
-    "yeabdiEndet": "የአብዲ እነት",
+    "yeabdiEndet": "",
     "ayriyaSiraj": "አይሪያ ሲራጅ",
     "jemilaRedi": "ጀማል ረዲ",
     "awelShukur": "አወል ሹኩር",
     "mehbuba": "መህቡባ",
     "nefisaSheman": "ነፊሳ ሸህአማን",
     "alewiya": "ኢክራም",
-    "yenejaAbet": "የነጃ አባት",
+    "yesin": "የሲን",
     "zeyneba": "ዘይነባ",
     "nudo": "ኑዶ",
     "behreSurur": "በህሬ ሱሩር",
@@ -212,7 +212,12 @@
     "reyan": "ረያን",
     "meymuna": "መይሙና",
     "keshfu": "ከሽፉ",
-    "jezira": "ጀዚራ"
+    "jezira": "ጀዚራ",
+    "imran": "ኢምራን",
+    "heyatuDeri": "ሀያቱ ደሪ",
+    "tesnim": "ተስኒም",
+    "yesulalaEndet": "",
+    "sulela": "ሱለላ"
   },
   "address1": {
     "aretbar": "አረትባር",
@@ -234,6 +239,7 @@
     "nigdibr": "ኒግዲብር",
     "aybat": "አይባት",
     "anshebeso": "አንሸቤሶ",
-    "mito": "ሚቶ"
+    "mito": "ሚቶ",
+    "ashkokele": "አሽኮከለ"
   }
 }

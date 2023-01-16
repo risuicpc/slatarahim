@@ -3,6 +3,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:localstorage/localstorage.dart';
 import 'package:slatarahim/classes/language.dart';
 import 'package:slatarahim/classes/progress.dart';
+import 'package:slatarahim/pages/add_family_page.dart';
 import 'package:slatarahim/pages/family_page.dart';
 import 'package:slatarahim/pages/home_page.dart';
 
@@ -93,10 +94,7 @@ class _NavigationBarsState extends State<NavigationBars> {
   static const List<Widget> _widgetOptions = <Widget>[
     Home(),
     Family(),
-    Text(
-      'Coming soon',
-      style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-    ),
+    AddFamily()
   ];
 
   void _onItemTapped(int index) {

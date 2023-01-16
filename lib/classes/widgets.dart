@@ -188,22 +188,19 @@ Widget myProfile(BuildContext context, profile, makingPhoneCall) {
                 ),
               ),
             ),
-            CircleAvatar(
-              radius: 24,
-              backgroundColor: profile.phone.length == 0
-                  ? Colors.blueGrey
-                  : const Color.fromARGB(255, 9, 155, 58),
-              child: IconButton(
-                alignment: Alignment.center,
-                icon: Icon(
-                  profile.phone.length == 0 ? Icons.phone_disabled : Icons.call,
-                  color: Colors.white,
-                ),
-                onPressed: profile.phone.length == 0
-                    ? null
-                    : () => makingPhoneCall(profile.phone),
-              ),
-            ),
+            profile.phone.length == 0
+                ? Container()
+                : CircleAvatar(
+                    radius: 24,
+                    backgroundColor: const Color.fromARGB(255, 9, 155, 58),
+                    child: IconButton(
+                      alignment: Alignment.center,
+                      icon: const Icon(Icons.call, color: Colors.white),
+                      onPressed: profile.phone.length == 0
+                          ? null
+                          : () => makingPhoneCall(profile.phone),
+                    ),
+                  ),
           ],
         ),
       ],
@@ -231,8 +228,6 @@ Widget myChildren(children, getProfile) {
               trailing: const Icon(Icons.arrow_forward),
               onTap: () => getProfile(children[index].id),
               leading: CircleAvatar(
-                backgroundColor: Colors.amber[800],
-                foregroundColor: Colors.white,
                 radius: 22,
                 child: Text(
                   jsonDecode(trans(context).name)[children[index].name][0],
@@ -244,9 +239,7 @@ Widget myChildren(children, getProfile) {
               ),
               title: Text(
                 jsonDecode(trans(context).name)[children[index].name],
-                style: const TextStyle(
-                  fontSize: 22,
-                ),
+                style: const TextStyle(fontSize: 22),
               ),
               subtitle: Row(
                 children: [
